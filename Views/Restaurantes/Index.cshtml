@@ -1,0 +1,97 @@
+﻿@model IEnumerable<AlmocoApp.Models.Restaurante>
+
+
+@{
+    ViewBag.Title = "Restaurantes";
+}
+
+<h2>Lista de Restaurantes</h2>
+
+<p>
+    @Html.ActionLink("Adicionar Restaurante", "Create", null, new { @class = "btn btn-info" }) 
+    @Html.ActionLink("Adicionar Categoria", "Create", "Categorias", null , new { @class = "btn btn-info" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <h4>Restaurante</h4>
+        </th>
+        <th>
+            <h4>Descrição</h4>
+        </th>
+        <th>
+            <h4>Endereço</h4>
+        </th>
+        <th>
+            <h4>Faixa de Preço</h4>
+        </th>
+        <th>
+            <h4>Categoria</h4>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RestauranteNome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @if(item.FaixaPreco == 1)
+            {
+                <p>Muito Barato</p>
+            }
+            else if (item.FaixaPreco == 2)
+            {
+                <p>Barato</p>
+            }
+            else if (item.FaixaPreco == 3)
+            {
+                <p>Médio</p>
+            }
+            else if (item.FaixaPreco == 4)
+            {
+                <p>Caro</p>
+            }
+            else if (item.FaixaPreco == 5)
+            {
+                <p>Muito Caro</p>
+            }
+            @*@Html.DisplayFor(modelItem => item.FaixaPreco)*@
+        </td>
+
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                if (categoria.CategoriaID == item.CategoriaID)
+                {
+                <td>
+                    @categoria.CategoriaNome
+                </td>
+                break;
+                }
+                
+            }
+        <td>
+            
+            @Html.ActionLink("Editar", "Edit", new { id = item.RestauranteID }, new { @class = "btn btn-info" }) 
+            @Html.ActionLink("Detalhes", "Details", new { id = item.RestauranteID }, new { @class = "btn btn-info" }) 
+            @Html.ActionLink("Apagar", "Delete", new { id = item.RestauranteID }, new { @class = "btn btn-info" })
+        </td>
+    </tr>
+}
+
+</table>
+
+
+<div>
+
+
+
+
+</div>

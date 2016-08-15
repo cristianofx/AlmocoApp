@@ -1,0 +1,64 @@
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\obj\Debug\AlmocoApp.csprojResolveAssemblyReference.cache
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\AlmocoApp.dll.config
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\AlmocoApp.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\AlmocoApp.pdb
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\Antlr3.Runtime.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\EntityFramework.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\EntityFramework.SqlServer.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\Newtonsoft.Json.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Helpers.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Mvc.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Optimization.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Razor.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.WebPages.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\WebGrease.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\EntityFramework.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\EntityFramework.SqlServer.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Helpers.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Mvc.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Optimization.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.Razor.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.WebPages.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\Antlr3.Runtime.pdb
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\bin\Newtonsoft.Json.xml
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\obj\Debug\AlmocoApp.dll
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\obj\Debug\AlmocoApp.pdb
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\obj\Debug\AlmocoApp.Migrations.InitialCreate.resources
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\obj\Debug\AlmocoApp.csproj.GenerateResource.Cache
+C:\Users\CristianoFX\Source\Workspaces\ProjetoAlmoco\Main\AlmocoApp\AlmocoApp\obj\Debug\AlmocoApp.Migrations.AddCategoriaIDRestaurante.resources
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\obj\Debug\AlmocoApp.csprojResolveAssemblyReference.cache
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\obj\Debug\AlmocoApp.Migrations.InitialCreate.resources
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\obj\Debug\AlmocoApp.Migrations.AddCategoriaIDRestaurante.resources
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\obj\Debug\AlmocoApp.csproj.GenerateResource.Cache
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\obj\Debug\AlmocoApp.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\obj\Debug\AlmocoApp.pdb
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\AlmocoApp.dll.config
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\AlmocoApp.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\AlmocoApp.pdb
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\Antlr3.Runtime.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\Newtonsoft.Json.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Helpers.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Mvc.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Razor.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.WebPages.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.WebPages.Razor.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\WebGrease.dll
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\Antlr3.Runtime.pdb
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\EntityFramework.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\EntityFramework.SqlServer.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\Newtonsoft.Json.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Helpers.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Mvc.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Razor.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.WebPages.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.WebPages.Razor.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\CristianoFX\Documents\ASP NET MVC5\AlmocoApp_22-06-2015\bin\System.Web.Optimization.xml

@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<div class="jumbotron" style="text-align:center">
+    <h2>ONDE IREMOS ALMOÇAR?</h2>
+    <p class="lead">
+        Preferências de hoje:
+    <p />
+
+    @* Controles de preferência para procura de restaurantes *@
+    @* "Procura", "Home" *@
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal" style="text-align:center" method="post">
+            <div class="form-group">
+                <label class="control-label">Categoria</label>
+                <div>
+                    @Html.DropDownList("Categorias", (List<SelectListItem>)ViewBag.CategoriasLista)
+                </div>
+                <label class="control-label">Faixa de Preço</label>
+                <div>
+                    @Html.DropDownList("Faixas", (List<SelectListItem>)ViewBag.FaixasLista)
+                </div>
+                <br />
+                <div class="form-group">
+                    <div class="col-md-offset-1 col-md-10">
+                        <input type="submit" value="Vai" class="btn btn-info" />
+                    </div>
+                </div>
+
+            </div>
+            @*<p>@Html.ActionLink("Vai", "Procura", "Home", new { @CategoriaParametro = Request.Form["Categorias"], @FaixaPrecoParametro = Request.Form["Faixas"] }, new { @class = "btn btn-info" })*@
+        </div>
+
+    }
+    @if (Request.HttpMethod == "POST" && @ViewBag.RestauranteEscolhido != null)
+    {
+        <h2> <b> @ViewBag.RestauranteEscolhido.RestauranteNome </b> </h2>
+        <p>Descrição:  @ViewBag.RestauranteEscolhido.Descricao  </p>
+        if (ViewBag.RestauranteEscolhido.FaixaPreco == 1)
+        {
+            <p>Faixa de Preço: Muito Barato</p>
+        }
+        else if (ViewBag.RestauranteEscolhido.FaixaPreco == 2)
+        {
+            <p>Faixa de Preço: Barato</p>
+        }
+        else if (ViewBag.RestauranteEscolhido.FaixaPreco == 3)
+        {
+            <p>Faixa de Preço: Médio</p>
+        }
+        else if (ViewBag.RestauranteEscolhido.FaixaPreco == 4)
+        {
+            <p>Faixa de Preço: Caro</p>
+        }
+        else if (ViewBag.RestauranteEscolhido.FaixaPreco == 5)
+        {
+            <p>Faixa de Preço: Muito Caro</p>
+        }
+
+        foreach (var categoria in ViewBag.Categorias)
+        {
+            if (categoria.CategoriaID == ViewBag.RestauranteEscolhido.CategoriaID)
+            {
+                <p>
+                   Categoria: @categoria.CategoriaNome
+                </p>
+                break;
+            }
+
+        }
+
+
+    }
+    else if (Request.HttpMethod == "POST" && @ViewBag.RestauranteEscolhido == null)
+    {
+        <p>Não encontrado restaurante com esses parâmetros.</p>
+    }
+    else
+    {
+
+    }
+
+</div>
+

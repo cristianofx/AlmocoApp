@@ -1,0 +1,32 @@
+﻿@model AlmocoApp.Models.Categoria
+
+@{
+    ViewBag.Title = "Remover Categoria";
+}
+
+<h2>Remover Categoria</h2>
+
+<h3>Deseja remover esta categoria?</h3>
+<div>
+    <h4>Categoria</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriaNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriaNome)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Remover" class="btn btn-info" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

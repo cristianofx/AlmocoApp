@@ -1,0 +1,65 @@
+﻿@model AlmocoApp.Models.Categoria
+
+@{
+    ViewBag.Title = "Adicionar Categoria";
+}
+
+<h2>Adicionar Categoria</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Categoria</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.CategoriaNome, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CategoriaNome, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CategoriaNome, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Adicionar" class="btn btn-info" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar para Restaurantes", "Index", "Restaurantes", null,  new { @class = "btn btn-info" })
+</div>
+
+<br/>
+
+<table class="table">
+    <tr>
+        <th>
+            Categorias Cadastradas
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in ViewBag.CategoriasLista)
+    {
+        <tr>
+            <td>
+                @item.CategoriaNome
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.CategoriaID }, new { @class = "btn btn-info" }) |
+                @Html.ActionLink("Apagar", "Delete", new { id = item.CategoriaID }, new { @class = "btn btn-info" })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

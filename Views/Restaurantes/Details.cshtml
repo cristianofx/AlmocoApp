@@ -1,0 +1,79 @@
+﻿@model AlmocoApp.Models.Restaurante
+
+@{
+    ViewBag.Title = "Detalhes do Restaurante";
+}
+
+<h2>Detalhes do Restaurante</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RestauranteNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RestauranteNome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+
+        <dt>
+            Categoria
+        </dt>
+
+        <dd>
+            @ViewBag.CategoriaRestaurante.CategoriaNome.ToString()
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaixaPreco)
+        </dt>
+
+        
+
+        <dd>
+            @if (Model.FaixaPreco == 1)
+            {
+                <p>Muito Barato</p>
+            }
+            else if (Model.FaixaPreco == 2)
+            {
+                <p>Barato</p>
+            }
+            else if (Model.FaixaPreco == 3)
+            {
+                <p>Médio</p>
+            }
+            else if (Model.FaixaPreco == 4)
+            {
+                <p>Caro</p>
+            }
+            else if (Model.FaixaPreco == 5)
+            {
+                <p>Muito Caro</p>
+            }
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.RestauranteID }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Voltar para a Lista", "Index", null,  new { @class = "btn btn-info" })
+</p>
